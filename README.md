@@ -5,6 +5,7 @@
 
 # 🤖 作业说明
 ## 📖 Exercise_1
+主要参考同济子豪兄的repo：[TommyZihao/MMPose_Tutorials](https://github.com/TommyZihao/MMPose_Tutorials/tree/main/2023/0524)
 ### 📁 文件结构
 ```bash
 .
