@@ -18,6 +18,12 @@
 
 
 ## 🎆 2.测试图像
+3. 图（线稿）生图(ControlNet)示例2：
+```python
+prompt='A room with light blue walls and white suspended ceilings, and many beautiful plants'
+```
+<img src="./image/3.poster.png" width="60%">
+
 1. 基于`inst_colorization`模型上色
 
 <img src="./image/1.colorImage.png" width="50%">
@@ -28,12 +34,6 @@
 prompt='Room with blue walls and a yellow ceiling.'
 ```
 <img src="./image/2.canny2image_1.png" width="100%">
-
-3. 图（线稿）生图(ControlNet)示例2：
-```python
-prompt='A room with light blue walls and white suspended ceilings, and many beautiful plants'
-```
-<img src="./image/3.homework.png" width="60%">
 
 4. 图（pose）生图(ControlNet)示例:
 ```python
