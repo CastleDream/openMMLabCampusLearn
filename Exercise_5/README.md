@@ -1,5 +1,5 @@
 # 📖 Exercise_5
-主要参考: <https://github.com/open-mmlab/mmdetection/blob/tutorials/demo/MMDet_Tutorial.ipynb>
+主要参考: <https://github.com/TommyZihao/MMagic_Tutorials/tree/main/0614>
 
 ## 📁 1.文件结构
 
@@ -31,9 +31,9 @@ prompt='Room with blue walls and a yellow ceiling.'
 
 3. 图（线稿）生图(ControlNet)示例2：
 ```python
-prompt='A room with light blue walls and white suspended ceilings, and many beautiful plants
+prompt='A room with light blue walls and white suspended ceilings, and many beautiful plants'
 ```
-<img src="./image/3.homework.png" width="80%">
+<img src="./image/3.homework.png" width="60%">
 
 4. 图（pose）生图(ControlNet)示例:
 ```python
