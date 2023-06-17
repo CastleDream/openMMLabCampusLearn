@@ -11,7 +11,7 @@
     └── image
         ├── 1.colorImage.png # 上色图像示例
         ├── 2.canny2image_1.png # 图（线稿）生图
-        ├── 3.homework.png # 任务
+        ├── 3.poster.png # 任务
         ...
         └── ...
 ```
