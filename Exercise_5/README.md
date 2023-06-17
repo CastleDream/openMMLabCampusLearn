@@ -33,20 +33,20 @@ prompt='Room with blue walls and a yellow ceiling.'
 ```python
 prompt='A room with light blue walls and white suspended ceilings, and many beautiful plants
 ```
-<img src="./image/3.homework.png" width="100%">
+<img src="./image/3.homework.png" width="80%">
 
 4. 图（pose）生图(ControlNet)示例:
 ```python
 prompt = 'masterpiece, best quality, sky, red hair, skirt, sailor collar, looking at viewer, long hair, building, bangs, neckerchief, long sleeves, sunny sky, power lines, shirt, cityscape, pleated skirt, scenery, blunt bangs, city, daylight, black sailor collar,smile face, big eyes'
 ```
-<img src="./image/sample_0_pose.png" width="50%">
+<img src="./image/sample_0_pose.png" width="30%">
 
 5. 文生图（Stable Diffusion）示例：
 ```python
 prompt = 'Anime-style headshot of a beautiful big-eyed girl looking at a cute black cat'
 
 ```
-<img src="./image/sd_result2.jpg" width="50%">
+<img src="./image/sd_result2.jpg" width="30%">
 
 ---
 # 🏷️ 任务介绍

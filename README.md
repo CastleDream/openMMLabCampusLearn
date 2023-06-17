@@ -7,6 +7,8 @@
 + 作业一的README已经移至：`Exercise_1/README.md`中
 + 作业二的README已经移至：`Exercise_2/README.md`中
 + 作业三的README已经移至：`Exercise_3/README.md`中
++ 作业四的README已经移至：`Exercise_4/README.md`中
++ 作业五的README已经移至：`Exercise_5/README.md`中
 
 # 📁文件结构说明
 ```bash
@@ -14,6 +16,8 @@
 ├── Exercise_1 # 课程练习
 ├── Exercise_2
 ├── Exercise_3
+├── Exercise_4
+├── Exercise_5
 ├── README.md
 ├── image # 课程用到的一些结果图像和测试用例图像
 ├── otherDoc # 课程ppt文档
