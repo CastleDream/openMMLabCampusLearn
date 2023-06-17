@@ -51,7 +51,7 @@ prompt = 'Anime-style headshot of a beautiful big-eyed girl looking at a cute bl
 ---
 # 🏷️ 任务介绍
 
-原链接位于：[【AI实战营第二期】第四次作业提交12班 #405](https://github.com/open-mmlab/OpenMMLabCamp/issues/405)
+原链接位于：[【AI实战营第二期】第五次作业提交12班 #405](https://github.com/open-mmlab/OpenMMLabCamp/issues/405)
 
 **题目**：作业：ControlNet 的 N 种玩法
 
