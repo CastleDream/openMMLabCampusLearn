@@ -5,48 +5,58 @@
 
 ```bash
 .
-└── Exercise_3 # 基于 RTMDet 的气球检测
-    ├── Exercise_3.ipynb # 主要脚本
-    ├── annotation # 气球数据集转为coco格式
-    │   ├── train_coco.json
-    │   └── val_coco.json
-    ├── checkpoints
-    │   ├── 20230611_115039.log # 日志
-    │   └── best_coco_bbox_mAP_epoch_40.pth # 最有权重
-    ├── output
-    │   ├── cat_result.jpg # 猫的单张推理结果
-    │   └── test_balloon.jpeg # 气球的单张推理结果
-    ├── rtmdet-tiny_1xb12-40e_balloon.py # 气球的配置文件
-    └── rtmdet-tiny_1xb12-40e_cat.py # 猫目标检测的配置文件
-
-# 详细的COCO数据集格式
-
-balloon_dataset/balloon
-├── train
-│   ├──10464445726_6f1e3bbe6a_k.jpg
-│   ...
-├── train_coco.json
-├── val
-│   ├──14898532020_ba6199dd22_k.jpg
-│   ...
-└── val_coco.json
+└── Exercise_4 # 西瓜语义分割
+    ├── DubaiConfig # 注册数据和config文件示例demo
+    │   ├── DubaiDataset_pipeline.py
+    │   ├── __init__.py
+    │   └── pspnet_r50-d8_4xb2-40k_DubaiDataset.py
+    ├── Exercise_4.ipynb # 主要脚本
+    ├── checkpoint
+    │   ├── 20230618_100453.json
+    │   ├── 20230618_100453.log # 日志
+    │   └── iter_1000.pth # 最优权重
+    ├── img
+    │   ├── 25watermelon.png
+    │   ├── test_watermelon.jpg # 测试图片
+    │   └── test_watermelon_rs.png # 测试结果
+    └── pspnet-watermelon_20230618.py # 训练使用的配置文件
 ```
 
 ## 📈 2.训练指标
 验证集评估指标
-![img](/image/3_val.png)
+```bash
++------------+-------+-------+
+|   Class    |  IoU  |  Acc  |
++------------+-------+-------+
+|    red     | 79.49 |  95.9 |
+|   green    | 83.39 | 98.94 |
+|   white    |  0.0  |  0.0  |
+...
+| seed-white | 48.04 |  58.1 |
+|  tabBlue   |  0.0  |  0.0  |
++------------+-------+-------+
+06/18 10:17:41 - mmengine - INFO - Iter(val) [11/11]    aAcc: 95.8700  mIoU: 66.4600  mAcc: 72.6600  data_time: 0.0103  time: 0.0317
+```
 
 测试集评估指标
-![img](/image/3_test.png)
+```bash
++------------+-------+-------+
+|   Class    |  IoU  |  Acc  |
++------------+-------+-------+
+|    red     |  95.5 | 96.73 |
+|   green    | 92.21 | 97.51 |
+|   white    | 83.76 | 95.16 |
+| seed-black | 79.27 | 88.49 |
+| seed-white | 48.04 |  58.1 |
+|  tabBlue   |  0.0  |  0.0  |
++------------+-------+-------+
+06/18 10:31:13 - mmengine - INFO - Iter(test) [11/11]    aAcc: 95.8700  mIoU: 66.4600  mAcc: 72.6600  data_time: 0.1341  time: 0.1852
+```
 
 ## 🎆 3.测试图像
-气球单张推理结果
 
-<img src="output/test_balloon.jpeg" width="50%">
+<img src="./img/rs.png" width="70%">
 
-特征可视化结果：
-
-<img src="../image/test_balloonAM.jpeg" width="50%">
 
 ---
 # 🏷️ 任务介绍
