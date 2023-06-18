@@ -1,5 +1,5 @@
 # 📖 Exercise_4
-主要参考: <https://github.com/open-mmlab/mmdetection/blob/tutorials/demo/MMDet_Tutorial.ipynb>
+主要参考: <https://github.com/TommyZihao/MMSegmentation_Tutorials/tree/main/20230612>
 
 ## 📁 1.文件结构
 
