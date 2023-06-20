@@ -7,6 +7,7 @@
 .
 └── Exercise_3 # 基于 RTMDet 的气球检测
     ├── Exercise_3.ipynb # 主要脚本
+    ├── rtmdet_cat_tutorial.ipynb # 上课时老师的脚本
     ├── annotation # 气球数据集转为coco格式
     │   ├── train_coco.json
     │   └── val_coco.json

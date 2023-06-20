@@ -5,7 +5,8 @@
 │   ├── annotations # 对应balloon的标注文件
 │   ├── balloon_dataset.zip
 │   └── cat_dataset.zip
-└── pycocotools.ipynb # 使用pycocotools的脚本
+├── 1.pycocotools.ipynb # 使用pycocotools的脚本以及coco数据集格式
+└── 2.图像EXIF信息.ipynb # PIL使用EXIF和OpenCV关于EXIF的说明
 
 # 注意，运行pycocotools.ipynb时，解压数据集文件后，把annotation放到balloon里，文件结构如下：捎带把train和val文件夹里自带的标注文件删除
 ├── balloon
