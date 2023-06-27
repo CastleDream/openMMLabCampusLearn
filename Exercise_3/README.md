@@ -1,5 +1,6 @@
 # 📖 Exercise_3
-主要参考: <https://github.com/open-mmlab/mmdetection/blob/tutorials/demo/MMDet_Tutorial.ipynb>
+主要参考: [rtmdet_cat_tutorial_colab.ipynb](https://colab.research.google.com/drive/1ygUgFAhMkgKMx8e3oFTzt4ktpGOxsKVD)和<https://github.com/open-mmlab/mmdetection/blob/tutorials/demo/MMDet_Tutorial.ipynb>
+
 
 ## 📁 1.文件结构
 
