@@ -2,3 +2,11 @@
 selfExercise/datasets/cat_dataset.zip
 selfExercise/datasets/balloon/*
 selfExercise/datasets/cat_dataset/*
+selfExercise/.ipynb_checkpoints/*
+selfExercise/Config/*
+selfExercise/Output/*
+selfExercise/mmdetection/*
+selfExercise/mmsegmentation/*
+selfExercise/mmdetection-main.zip
+selfExercise/mmsegmentation-main.zip
+selfExercise/datasets/05-damaged-01/*
