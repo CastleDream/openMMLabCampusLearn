@@ -26,6 +26,11 @@
 + 作业五的README已经移至：`Exercise_5/README.md`中
 
 # 📌学习结果
+2023.7.8，终于收到快递啦，一个证书，一个**鼠标垫**（鼠标垫真的不错），一个钥匙扣
 
+<img src="./image/reward1.jpeg" width="50%">
+<img src="./image/reward2.jpeg" width="50%">
 
+# ♾️ 后续社区PR
+算是为开源做贡献了吧🌈🌈🌈
 
