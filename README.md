@@ -34,3 +34,7 @@
 # ♾️ 后续社区PR
 算是为开源做贡献了吧🌈🌈🌈
 
+|num|level|link|merge time|
+|---|---|---|---|
+|1|easy|<https://github.com/open-mmlab/mmsegmentation/pull/3158>|2023.7.14|
+
