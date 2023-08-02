@@ -1,4 +1,4 @@
-📁 文件说明
+## 📁 文件说明
 
 **对应的博客记录**：
 |jupyter notebook|博客链接|
@@ -7,7 +7,7 @@
 |3.PatchCollection.ipynb|[matplotlib——2. 形状和路径（Shape and Collection）底纹（hatch）](https://stitch.blog.csdn.net/article/details/131331616)|
 |4-1.数据增强可视化Openmmlab.ipynb|[OpenMMLab-AI实战营第二期——相关3. RGB语义分割标注图像转为Gray格式的mask](https://blog.csdn.net/Castlehe/article/details/131454699)|
 
-**文件结构**：
+## **文件结构**：
 ```bash
 .
 ├── 1.pycocotools.ipynb # 使用pycocotools的脚本以及coco数据集格式
