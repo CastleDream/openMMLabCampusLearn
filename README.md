@@ -27,6 +27,10 @@
 ## ♾️ 后续社区PR
 算是为开源做贡献了吧🌈🌈🌈
 
+2023.10.24，总之距离我第一次提交PR过了挺久，我终于看到自己的名字出现在MMSegmentation的
+
+<img src="./image/contributors.png " width="30%">
+
 |num|level|link|merge time|
 |---|---|---|---|
 |1|easy|<https://github.com/open-mmlab/mmsegmentation/pull/3158>|2023.7.14|
